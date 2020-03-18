@@ -8,7 +8,7 @@ puts "This was a fun script that was written to get a check digit"
 puts "for a Interleaved 2 of 5 barcode project"
 puts
 total = 0
-print "enter a number which will calculate mod(10) and get a check digit for that number: "
+print "enter a number and script will calculate mod(10) and get a check digit for that number: "
 number = gets.chomp
 puts
 mod10 = number.to_i.modulo(10)
