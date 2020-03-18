@@ -5,8 +5,8 @@ puts
 puts "script calculates mod(10) of a number and calculates check digit for that number"
 puts "by spliting each place holder of a number and multiplying by alternating numbers 1 and 3 "
 puts "if number is even start with 1 and if number is odd start with 3"
-puts "This was a fun script that was developed for a" 
-puts "Interleaved 2 of 5 barcode project we were working on"
+puts "This was a fun script that was written to get a check digit" 
+puts "for a Interleaved 2 of 5 barcode project"
 puts
 total = 0
 print "enter a number which will calculate mod(10) and get a check digit for that number: "
