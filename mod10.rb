@@ -52,5 +52,5 @@ cd = total.modulo(10)
 puts	
 puts "Check Digit of total.modulo(10) = #{cd}"
 puts
-puts "enter any key on keyboard to exit"
+puts "press enter to exit"
 a = gets
