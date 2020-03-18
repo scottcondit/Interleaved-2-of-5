@@ -9,11 +9,12 @@ puts "for a Interleaved 2 of 5 barcode project"
 puts
 total = 0
 print "enter a number and script will calculate mod(10) and get a check digit for that number: "
+#number = "104202000001"
 number = gets.chomp
 puts
 mod10 = number.to_i.modulo(10)
 puts "mod10 of #{number} = #{mod10}"
-#number = "104202000001"
+
 if number.length.to_i.even?
 puts "number length = #{number.length}, number is even"
 value = 1 
