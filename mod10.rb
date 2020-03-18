@@ -23,6 +23,7 @@ puts "number length = #{number.length}, number is odd"
 value = 3 
 end
 
+#-I think I copied line below from somewhere but I couldn't find/remember from where
 number.chars.each{|number|
 
 if value == 1
